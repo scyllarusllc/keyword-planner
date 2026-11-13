@@ -30,7 +30,13 @@ cd keyword-planner
 
 目前通过 AI Skill 交付，在线网站版属于未来方向，尚未开发。
 
-这是独立项目，并非 Google 官方产品，也未内置 Google Ads API 接入。可以直接做定性研究、分析已有导出文件；获取实时 Google 指标需要另外可用且已授权的数据连接。
+这是独立项目，并非 Google 官方产品，也未内置 Google Ads API 接入。可以直接做定性研究、分析已有导出文件；现在支持通过已授权、已登录的 Google Keyword Planner 浏览器会话做实时研究，也支持可用的数据连接或导出文件。浏览器方式不需要 Google Ads API 开发者令牌；浏览器控制能力由你的 AI 助手提供，仓库本身未打包浏览器驱动。
+
+## 使用 Google Keyword Planner
+
+> 读取 skills/keyword-planner/SKILL.md，使用我已登录的 Google Keyword Planner 研究塞班生活信息平台。地区仅选塞班，英文和简体中文分开查询，保留搜索量区间，账户研究结果保存在本地。
+
+详见[浏览器工作流](skills/keyword-planner/references/google-browser.md)，包含地区、语言、日期、分页、意图检查和证据保留。Google 可能只提供区间数据；这个流程无需创建广告或修改付款设置。
 
 ## 带着你的想法来找我
 

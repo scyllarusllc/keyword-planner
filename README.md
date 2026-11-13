@@ -52,7 +52,13 @@ For an agent with a skill-directory mechanism, copy the entire `skills/keyword-p
 
 ## Google Keyword Planner relationship
 
-This is an independent AI skill, not a Google product or a bundled Google Ads integration. It can guide qualitative research and analyze supplied exports. Live Google metrics require a separately available, authorized data connection. See [data handling and official references](skills/keyword-planner/references/google-data.md).
+This is an independent AI skill, not a Google product or a bundled Google Ads integration. It can guide qualitative research and analyze supplied exports. Live research is supported through an authorized, signed-in Google Keyword Planner browser session, an available data connector, or supplied exports. The browser workflow does not require a Google Ads API developer token. Browser control is provided by your AI agent, not bundled in this repository. See [data handling and official references](skills/keyword-planner/references/google-data.md).
+
+## Use Google Keyword Planner
+
+> Use the skill at skills/keyword-planner/SKILL.md and my signed-in Google Keyword Planner session to research a Saipan community marketplace. Set the location to Saipan, run English and Simplified Chinese separately, preserve volume ranges, and keep account-derived results local.
+
+Follow the [browser workflow](skills/keyword-planner/references/google-browser.md) for targeting, result verification, pagination, and evidence handling. Google may provide ranges rather than exact counts. This workflow does not create campaigns or change billing.
 
 ## Bring your idea to Scyllarus
 

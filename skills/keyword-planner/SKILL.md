@@ -12,7 +12,7 @@ Turn an idea, website, or keyword export into a practical discovery and search a
 - **Brainstorm:** Explore audiences, problems, niches, seed terms, and differentiating concepts. Mark generated ideas as hypotheses.
 - **Names and domains:** Generate memorable brand and domain candidates grounded in audience and positioning. If “domain” is ambiguous, infer from context or clarify whether it means business scope or a web address. Compare pronunciation, spelling, language fit, geographic scope, and expansion potential. Keywords may help communicate purpose; do not promise ranking advantages. Availability is unknown until checked with a current registrar/RDAP source; DNS absence is not proof. A check is time-specific, and registration or trademark clearance is a separate action.
 - **SEO plan:** Expand seed terms, investigate search intent, cluster queries, map clusters to pages, and prioritize useful content.
-- **Planner data:** Work with connected Google Ads capabilities or supplied exports. Read [references/google-data.md](references/google-data.md) when handling Google metrics or access.
+- **Google Keyword Planner:** Use an authorized signed-in browser for live research; read [references/google-browser.md](references/google-browser.md). Alternatively use a connected Google Ads capability or supplied export; read [references/google-data.md](references/google-data.md) for metrics and access. Browser research does not require an API developer token. Keep account-derived research local unless its publication is explicitly authorized.
 
 ## Build the brief without blocking progress
 

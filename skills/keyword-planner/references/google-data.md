@@ -4,9 +4,9 @@ Use this reference when importing Google Keyword Planner data or using Google Ad
 
 ## Select an available path
 
-1. Inspect available connected tools for keyword ideas or historical metrics and use their actual schema. Do not assume a Google Ads connector exists.
+1. Inspect available connected tools for keyword ideas or historical metrics and use their actual schema. Do not assume a Google Ads connector exists. When no sufficient connector exists, try an authorized signed-in browser using [google-browser.md](google-browser.md); no API developer token is required for this route.
 2. If the user supplies a Keyword Planner export, inspect its encoding, delimiter, header rows, units, and metric meanings before processing it. Preserve original values and source provenance. Do not require credentials to process an export.
-3. If neither is available, continue with labeled qualitative research. Explain that measured Google metrics require an authorized connection or export; ask for this only when necessary to the requested result.
+3. If no live connection, authorized browser, or export is available, continue with labeled qualitative research. Explain that measured Google metrics require an authorized connection or export; ask for this only when necessary to the requested result.
 
 If asked to implement an API integration, verify current official prerequisites and API version first. Keep credentials out of chat and generated artifacts. Do not create campaigns, spend money, or change account settings as part of keyword research.
 
