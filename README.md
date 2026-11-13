@@ -1,10 +1,10 @@
-# Keyword Planner
+# Scyllarus Keyword Planner
 
 **Turn a rough idea into a clearer business, a memorable name, and an actionable keyword plan.**
 
-An open-source AI skill by **[Scyllarus](https://github.com/scyllarusllc)** for business brainstorming, domain ideation, and SEO keyword research. Bring an idea, a website, or a Google Keyword Planner export.
+An open-source AI brainstorming and keyword planning project by **[Scyllarus](https://github.com/scyllarusllc)** for business brainstorming, domain ideation, and SEO keyword research. Bring an idea, a website, or a Google Keyword Planner export. Available as an AI skill today; a website version is a future direction, not an available feature.
 
-[中文说明](README.zh-CN.md) · [Try an example](examples/saipan-marketplace.md) · [Read the skill](SKILL.md) · [Work with Scyllarus](mailto:hey@scyllar.us)
+[中文说明](README.zh-CN.md) · [Try an example](examples/saipan-marketplace.md) · [Read the skill](skills/keyword-planner/SKILL.md) · [Work with Scyllarus](mailto:hey@scyllar.us)
 
 ## What you can do
 
@@ -19,7 +19,7 @@ The skill separates generated ideas, observed evidence, and measured data. It do
 
 ## Quick start
 
-Clone this repository and ask your AI coding agent to read `SKILL.md`:
+Clone this repository and ask your AI coding agent to read `skills/keyword-planner/SKILL.md`:
 
 ```sh
 git clone https://github.com/scyllarusllc/keyword-planner.git
@@ -28,9 +28,9 @@ cd keyword-planner
 
 Example request:
 
-> Read SKILL.md and use it to explore a Saipan marketplace for rentals, supermarket promotions, and local supply and demand. Start with positioning and domain names. Reply in Chinese. Label unverified ideas and do not invent keyword metrics.
+> Read skills/keyword-planner/SKILL.md and use it to explore a Saipan marketplace for rentals, supermarket promotions, and local supply and demand. Start with positioning and domain names. Reply in Chinese. Label unverified ideas and do not invent keyword metrics.
 
-For an agent with a skill-directory mechanism, this repository is the skill folder: it contains `SKILL.md`, `agents/openai.yaml`, and supporting references. Follow your agent's skill installation instructions; merely cloning the repository does not install it globally.
+For an agent with a skill-directory mechanism, copy the entire `skills/keyword-planner/` folder; it contains `SKILL.md`, `agents/openai.yaml`, and supporting references. Follow your agent's skill installation instructions; merely cloning the repository does not install it globally.
 
 ## Prompts to try
 
@@ -52,7 +52,7 @@ For an agent with a skill-directory mechanism, this repository is the skill fold
 
 ## Google Keyword Planner relationship
 
-This is an independent AI skill, not a Google product or a bundled Google Ads integration. It can guide qualitative research and analyze supplied exports. Live Google metrics require a separately available, authorized data connection. See [data handling and official references](references/google-data.md).
+This is an independent AI skill, not a Google product or a bundled Google Ads integration. It can guide qualitative research and analyze supplied exports. Live Google metrics require a separately available, authorized data connection. See [data handling and official references](skills/keyword-planner/references/google-data.md).
 
 ## Bring your idea to Scyllarus
 
@@ -69,6 +69,10 @@ For reusable improvements or bugs, [open an issue](https://github.com/scyllarusl
 ## Contribute
 
 Useful contributions include realistic examples, clearer research workflows, and fixes for misleading interpretations of keyword data. Describe the problem, expected behavior, and any public evidence in an issue or pull request. Keep examples clearly labeled when their data is fictional or unmeasured.
+
+## Naming and project direction
+
+The product name is **Scyllarus Keyword Planner**; the repository and skill identifier remain `keyword-planner`. We use singular **keyword** as the modifier in “Keyword Planner.” Read the [naming decision record](docs/naming.md) for alternatives, the skill-first roadmap, and copyright and trademark considerations.
 
 ## License
 

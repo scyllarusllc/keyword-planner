@@ -1,10 +1,10 @@
-# Keyword Planner
+# Scyllarus Keyword Planner
 
 **把一个模糊想法，变成清晰的业务方向、好记的名字，以及可执行的关键词计划。**
 
-由 **[Scyllarus](https://github.com/scyllarusllc)** 创建的开源 AI 技能，用于创意头脑风暴、品牌与域名构思、SEO 关键词研究，以及 Google Keyword Planner 导出数据分析。
+由 **[Scyllarus](https://github.com/scyllarusllc)** 创建的开源 AI 创意与关键词规划项目，用于创意头脑风暴、品牌与域名构思、SEO 关键词研究，以及 Google Keyword Planner 导出数据分析。
 
-[English](README.md) · [塞班平台示例](examples/saipan-marketplace.md) · [技能指令](SKILL.md) · [联系 Scyllarus](mailto:hey@scyllar.us)
+[English](README.md) · [塞班平台示例](examples/saipan-marketplace.md) · [技能指令](skills/keyword-planner/SKILL.md) · [联系 Scyllarus](mailto:hey@scyllar.us)
 
 ## 能帮你做什么
 
@@ -22,13 +22,15 @@ git clone https://github.com/scyllarusllc/keyword-planner.git
 cd keyword-planner
 ```
 
-让你的 AI 编程助手读取 `SKILL.md`，然后提出请求，例如：
+让你的 AI 编程助手读取 `skills/keyword-planner/SKILL.md`，然后提出请求，例如：
 
-> 按 SKILL.md 的方法，帮我研究一个面向塞班的生活信息平台，涵盖租房、超市促销和供求。先讨论定位与域名，用中文回复。区分创意与证据，不编造搜索量。
+> 按 skills/keyword-planner/SKILL.md 的方法，帮我研究一个面向塞班的生活信息平台，涵盖租房、超市促销和供求。先讨论定位与域名，用中文回复。区分创意与证据，不编造搜索量。
 
-如果使用支持技能目录的助手，请按该助手的安装方式放置整个项目文件夹。克隆项目不会自动完成全局安装。
+如果使用支持技能目录的助手，请按该助手的安装方式复制完整的 `skills/keyword-planner/` 文件夹。克隆项目不会自动完成全局安装。
 
-这是独立的 AI 技能，并非 Google 官方产品，也未内置 Google Ads API 接入。可以直接做定性研究、分析已有导出文件；获取实时 Google 指标需要另外可用且已授权的数据连接。
+目前通过 AI Skill 交付，在线网站版属于未来方向，尚未开发。
+
+这是独立项目，并非 Google 官方产品，也未内置 Google Ads API 接入。可以直接做定性研究、分析已有导出文件；获取实时 Google 指标需要另外可用且已授权的数据连接。
 
 ## 带着你的想法来找我
 
@@ -41,6 +43,10 @@ cd keyword-planner
 **Scyllarus · [hey@scyllar.us](mailto:hey@scyllar.us) · [GitHub](https://github.com/scyllarusllc)**
 
 项目问题与可复用的改进建议欢迎提交 Issue 或 PR。私人项目细节请通过邮件沟通，不要在公开 Issue 中提交密钥或客户隐私。
+
+## 命名与项目方向
+
+产品展示名采用 **Scyllarus Keyword Planner**，仓库名和技能标识保留 `keyword-planner`。这里使用单数 **keyword** 修饰 planner。详见[命名决策记录](docs/naming.md)，包含本次讨论、项目发展方向，以及版权与商标考虑。
 
 ## 开源许可
 
