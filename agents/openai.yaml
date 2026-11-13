@@ -1,0 +1,4 @@
+interface:
+  display_name: "Keyword Planner"
+  short_description: "Brainstorm domains and research SEO keyword opportunities"
+  default_prompt: "Use $keyword-planner to brainstorm my idea, compare domain candidates, and build an evidence-backed SEO keyword plan."
